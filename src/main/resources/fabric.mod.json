@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "voxlated",
+	"version": "${version}",
+	"name": "Voxlated",
+	"description": "Voxl world in a voxel game, it just makes sense.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/voxlated/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.schepka.voxlated.Voxlated"
+		],
+		"client": [
+			"net.schepka.voxlated.VoxlatedClient"
+		],
+		"fabric-datagen": [
+			"net.schepka.voxlated.VoxlatedDataGenerator"
+		]
+	},
+	"mixins": [
+		"voxlated.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
