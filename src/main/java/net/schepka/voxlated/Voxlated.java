@@ -2,6 +2,8 @@ package net.schepka.voxlated;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.schepka.voxlated.item.ModItemGroups;
+import net.schepka.voxlated.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,8 @@ public class Voxlated implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
