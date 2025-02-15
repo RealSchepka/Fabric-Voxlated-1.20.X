@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "voxlated:cog"
+    },
+    {
+      "item": "voxlated:blood_iron"
+    }
+  ],
+  "result": {
+    "item": "voxlated:blood_cog",
+    "count": 1
+  }
+}

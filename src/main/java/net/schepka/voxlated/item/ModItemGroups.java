@@ -15,6 +15,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.GOLDRING)).entries((displayContext, entries) -> {
                         entries.add(ModItems.GOLDRING);
                         entries.add(ModItems.BUMBLZHONEY);
+                        entries.add(ModItems.BLOODIRON);
+                        entries.add(ModItems.COG);
+                        entries.add(ModItems.BLOODCOG);
 
                     }).build());
 

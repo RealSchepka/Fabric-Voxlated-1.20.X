@@ -14,7 +14,9 @@ public class ModItems {
 
     public static final Item GOLDRING = registerItem("goldring", new Item(new FabricItemSettings()));
     public static final Item BUMBLZHONEY = registerItem("bumblz_honey", new Item(new FabricItemSettings()));
-
+    public static final Item BLOODIRON = registerItem("blood_iron", new Item(new FabricItemSettings()));
+    public static final Item COG = registerItem("cog", new Item(new FabricItemSettings()));
+    public static final Item BLOODCOG = registerItem("blood_cog", new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Voxlated.MOD_ID, name), item);
     }
